@@ -1,0 +1,86 @@
+<html>
+  <title>MESSAGE SUCCESSFUL</title>
+  <head>
+     <style>
+       *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         text-decoration: none;
+       }
+       body{
+         background-color : lightskyblue;
+       }
+       h1{
+         color : white;
+         background-color : rgb(255, 5, 42);
+         text-align: center;
+         padding: 80px;
+         margin : 10px
+       }
+       .lead{
+         margin: 10px;
+         padding: 20px;
+         color: white;
+         background-color: red;
+         text-align-last: center;
+         
+       }
+       #having{
+         margin: 10px;
+         padding: 20px;
+         color: white;
+         background-color: red;
+         text-align-last: center;
+
+       }
+        .buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+       .buttons button{
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px 0;
+  color: #31344b;
+  background-color: red;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 4;
+}
+.buttons button:first-child{
+  margin-right: 10px;
+}
+.buttons button:last-child{
+  margin-left: 10px;
+}
+       
+    </style>
+  </head>
+ <body>
+
+<div class="jumbotron text-center">
+  <h1 class="display-3">Thank You!<br>For Your Response.</h1>
+  <p class="lead"><strong>Thank You For Messaging Me</strong><br><br>Your Details Has Been Recorded, I will be right back in few hours..</p>
+  <hr>
+  <p id="having">
+ Having Trouble?
+</p>
+ 
+ <div style="cursor: pointer;" onclick="window.location='index.html#message';" class="buttons">
+  <button>Message</button>
+  <div style="cursor: pointer;" onclick="window.location='index.html#home';" class="buttons"></div>
+   <button>Home</button>
+ 
+  
+</div>
+  </body>
+</html>
+
