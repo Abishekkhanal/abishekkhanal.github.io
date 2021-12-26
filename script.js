@@ -84,3 +84,7 @@ function updateVisitCount() {
 		countEl.innerHTML = res.value;
 	})
 }
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+loader.style.display = "none";
+})
