@@ -687,14 +687,15 @@ footer span a:hover{
  }
  
  visitor {
-     
-     color: rgb(192, 31, 31);
+     margin : 10px;
+     padding: 10px;
+     color: crimson;
      font-family: 'Muli', sans-serif;
      flex-direction: column;
      display: flex;
      align-items: center;
      justify-content: center;
-     height: 100vh;
+     height: 10vh;
      margin: 0;
  }
  
@@ -708,16 +709,3 @@ footer span a:hover{
      letter-spacing: 2px;
      margin: 0;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
