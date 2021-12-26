@@ -678,3 +678,46 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+ /*Visitor counter */
+ @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+ * {
+     box-sizing: border-box;
+ }
+ 
+ visitor {
+     
+     color: rgb(192, 31, 31);
+     font-family: 'Muli', sans-serif;
+     flex-direction: column;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+ }
+ 
+ #count {
+     font-size: 50px;
+     margin: 0;
+ }
+ 
+ #times {
+     color: rgba(255, 23, 23, 0.8);
+     letter-spacing: 2px;
+     margin: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
