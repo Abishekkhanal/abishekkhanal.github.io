@@ -679,14 +679,7 @@ footer span a:hover{
     }
 }
 
- /*Visitor counter */
- @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
- * {
-     box-sizing: border-box;
- }
- 
- /*Visitor counter */
+/*Visitor counter */
  @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
  * {
@@ -694,15 +687,13 @@ footer span a:hover{
  }
  
  visitor {
-     margin : 10px;
-     padding: 10px;
      color: crimson;
      font-family: 'Muli', sans-serif;
      flex-direction: column;
      display: flex;
-     align-items: center;
+     align-items: right;
      justify-content: center;
-     height: 15vh;
+     height: 20vh;
      margin: 0;
  }
  
