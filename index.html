@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
      <!-- add icon link -->
         <link rel = "icon" href = 
-"images/profile-1.jpeg" 
+"images/abi.jpeg" 
         type = "image/x-icon">
 </head>
 <body>
@@ -174,7 +174,7 @@ The ability to explain technical matters clearly.</p>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-1.jpeg" alt="">
+                        <img src="images/abi.jpeg" alt="">
                         <div class="text">Abishek Khanal</div>
                         <p>Web Develper & Designer, Student.</p>
                     </div>
@@ -254,20 +254,20 @@ The ability to explain technical matters clearly.</p>
                 </div>
                 <div class="column right">
                     <div class="text" id="message">Message me</div>
-                    <form action="#">
+                    <form action="messsage.php">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" required name="name">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" required name= "email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required name= "subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." required name= "message"></textarea>
                         </div>
                         <div class="button-area">
                             <button style="cursor: pointer;" onclick="window.location='success.html';" type="submit">Send message</button>
