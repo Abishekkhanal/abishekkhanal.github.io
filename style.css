@@ -686,6 +686,13 @@ footer span a:hover{
      box-sizing: border-box;
  }
  
+ /*Visitor counter */
+ @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+ * {
+     box-sizing: border-box;
+ }
+ 
  visitor {
      margin : 10px;
      padding: 10px;
@@ -705,7 +712,7 @@ footer span a:hover{
  }
  
  #times {
-     color: rgba(255, 23, 23, 0.8);
+     color: crimson;
      letter-spacing: 2px;
      margin: 0;
  }
